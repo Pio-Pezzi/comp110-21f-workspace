@@ -1,5 +1,8 @@
-# TODO: Write docstring here
+"""Program to gas myself up!"""
 
-# TODO: Initialize __author__ variable here
+__author__ = "730414104"
 
-# TODO: Implement your program logic here
+name: str = input("What is your name? ")
+print(name + ", If i'm being honest, you are the bee's knees! ")
+print("From the bottom of my heart " + name + ", you're a superstar!")
+print("You're the bomb diggity " + name + "!")
