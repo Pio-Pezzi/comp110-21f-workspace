@@ -3,7 +3,7 @@
 __author__ = "730414104"
 
 
-word: str = input("What word would you like to search? ")
+word: str = input("What word would you like to search?: ")
 letter: str = input("what letter would you like to search for? ")
 i = 0
 appearance = 0
@@ -14,4 +14,5 @@ while i < len(word):
         appearance += 1
     i += 1
 
-print("your letter has appeared " + str(appearance) + " time(s)")
+count = str(appearance)
+print("Count: " + count)

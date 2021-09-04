@@ -16,3 +16,15 @@ def test_square():
     assert square(2) == 4
     assert square(10) == 100
     assert square(110) == 12100
+
+pool: int = -3
+size: int = 5
+
+teams = pool // size
+leftover = pool % size
+
+print(teams)
+
+print(teams * size + leftover == pool)
+
+while = "asdf"
