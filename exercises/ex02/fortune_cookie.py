@@ -12,7 +12,7 @@ __author__ = "730414104"
 from random import randint
 
 number = randint(1, 4)
-print("your fortune cookie says... ")
+print("Your fortune cookie says...")
 
 if number == 1:
     print("Your days will be filled with joy!")
@@ -23,4 +23,4 @@ elif number == 3:
 else: 
     print("You will capture the blue flag, and live a life few men dare to dream")
 
-print("Now go spread the positive vibes!")
+print("Now, go spread positive vibes!")

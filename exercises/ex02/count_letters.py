@@ -2,9 +2,9 @@
 
 __author__ = "730414104"
 
+letter: str = input("What letter do you want to search for?: ")
+word: str = input("Enter a word: ")
 
-word: str = input("What word would you like to search?: ")
-letter: str = input("what letter would you like to search for? ")
 i = 0
 appearance = 0
 
